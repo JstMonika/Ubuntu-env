@@ -27,6 +27,7 @@ python3 ./install.py
 
 sudo apt-get install build-essential
 
-cd
-ssh-keygen
+git config --global user.email "benjack30518@gmail.com"
+git config --global user.name "softund"
+
 
