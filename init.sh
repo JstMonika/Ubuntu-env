@@ -3,12 +3,12 @@
 sudo apt update
 sudo apt upgrade
 
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 chsh -s $(which zsh)
 
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
-sudo apt-get install python
+sudo apt-get install python -y
 
 cd home
 cp ./.vimrc ~/.vimrc
@@ -25,7 +25,7 @@ git clone https://github.com/wting/autojump.git
 cd autojump
 python3 ./install.py
 
-sudo apt-get install build-essential
+sudo apt-get install build-essential -y
 
 git config --global user.email "benjack30518@gmail.com"
 git config --global user.name "softund"
