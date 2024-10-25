@@ -18,8 +18,6 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/npm", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
-zplug "tarrasch/zsh-bd", at:3724233, frozen:1
-zplug "dtrugman/shplug"
 zplug "wting/autojump"
 
 # zsh-autosuggestions setting
